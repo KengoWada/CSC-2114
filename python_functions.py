@@ -133,5 +133,5 @@ def dna_2_num(dnastring):
         new_list.append(str(dna_dictionary[letter]))
         dnasum += dna_dictionary[letter]
     owaye = ''.join(new_list)
-    print('DNAString = {}').format(owaye)
-    print('DNA_Sum = {}').format(dnasum)
+    print('DNAString = {}'.format(owaye))
+    print('DNA_Sum = {}'.format(dnasum))
