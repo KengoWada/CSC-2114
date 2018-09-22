@@ -7,7 +7,7 @@ This repo is for python quiz code for A.I. at Makerere University.
 * Clone the repo using this command in terminal
 
 ```
-git clone 
+git clone https://github.com/KengoWada/CSC2114.git
 ```
 
 * Switch to the develop branch
