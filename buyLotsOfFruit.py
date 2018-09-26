@@ -23,8 +23,9 @@ the script should produce the output:
 Cost of [('apples', 2.0), ('pears', 3.0), ('limes', 4.0)] is 12.25
 """
 
-fruitPrices = {'apples':2.00, 'oranges': 1.50, 'pears': 1.75,
-              'limes':0.75, 'strawberries':1.00}
+fruitPrices = {'apples': 2.00, 'oranges': 1.50, 'pears': 1.75,
+                'limes': 0.75, 'strawberries': 1.00}
+
 
 def buyLotsOfFruit(orderList):
     """
@@ -39,8 +40,9 @@ def buyLotsOfFruit(orderList):
             print("{} is not in inventory").format(fruit)
             return None
         else:
-            totalCost += price * fruitPrices[fruit]
+            totalCost += price * fruitPrices[ fruit ]
     return totalCost
+
 
 # Main Method
 if __name__ == '__main__':
